@@ -3,7 +3,7 @@ name : demo workflow
 on:
   pull_request:
     branches:
-      -main
+      - main
 
 jobs:
   build_and_test_java_app:
